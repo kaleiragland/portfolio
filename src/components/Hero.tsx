@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
@@ -6,7 +8,19 @@ export default function Hero() {
       <div className="absolute bottom-20 -right-32 w-96 h-96 bg-peach-200/40 rounded-full blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-sky-100/30 rounded-full blur-3xl" />
 
-      <div className="relative z-10 text-center px-6 max-w-3xl">
+      <div className="relative z-10 flex flex-col md:flex-row items-center gap-10 md:gap-16 px-6 max-w-5xl">
+        <div className="shrink-0">
+          <Image
+            src="/headshot2.jpg"
+            alt="Kalei Ragland"
+            width={220}
+            height={220}
+            className="rounded-full object-cover object-[50%_20%] w-52 h-52 md:w-64 md:h-64 border-4 border-sage-300 shadow-lg"
+            priority
+          />
+        </div>
+
+        <div className="text-center md:text-left">
         <p className="text-sm font-medium tracking-widest uppercase text-sage-400 mb-4">
           Software Engineer
         </p>
@@ -18,7 +32,7 @@ export default function Hero() {
           React, Rails, Python, and AWS. Passionate about turning complex
           problems into clean, user-friendly experiences.
         </p>
-        <div className="flex items-center justify-center gap-4 flex-wrap">
+        <div className="flex items-center justify-center md:justify-start gap-4 flex-wrap">
           <a
             href="/#projects"
             className="px-6 py-3 bg-neutral-900 text-white text-sm font-medium rounded-full hover:bg-neutral-700 transition-colors"
@@ -34,7 +48,7 @@ export default function Hero() {
         </div>
 
         {/* Social links */}
-        <div className="flex items-center justify-center gap-6 mt-10">
+        <div className="flex items-center justify-center md:justify-start gap-6 mt-10">
           <a
             href="https://github.com/kaleiragland"
             target="_blank"
@@ -76,6 +90,7 @@ export default function Hero() {
               />
             </svg>
           </a>
+        </div>
         </div>
       </div>
     </section>
