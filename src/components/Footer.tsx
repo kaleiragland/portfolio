@@ -6,7 +6,7 @@ export default function Footer() {
           Get in Touch
         </p>
         <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-4">
-          Let&apos;s connect
+          Let&apos;s connect!
         </h2>
         <p className="text-neutral-500 mb-8 max-w-md mx-auto">
           I&apos;m currently looking for new opportunities. Whether you have a
@@ -18,7 +18,7 @@ export default function Footer() {
             href="mailto:kar2247@columbia.edu"
             className="px-6 py-3 bg-neutral-900 text-white text-sm font-medium rounded-full hover:bg-neutral-700 transition-colors"
           >
-            Say Hello
+            Say Hi
           </a>
           <a
             href="https://linkedin.com/in/kaleiragland"

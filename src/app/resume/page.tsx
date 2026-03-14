@@ -60,7 +60,7 @@ export default function ResumePage() {
               <div className="space-y-2">
                 <div>
                   <p className="font-semibold">
-                    Columbia University — M.S. Computer Science
+                    Columbia University - M.S. Computer Science
                   </p>
                   <p className="text-sm text-neutral-500">
                     Expected May 2026
@@ -68,7 +68,7 @@ export default function ResumePage() {
                 </div>
                 <div>
                   <p className="font-semibold">
-                    UT Austin — B.S. Biochemistry, Minors in CS &amp; History
+                    UT Austin - B.S. Biochemistry, Minors in CS &amp; History
                   </p>
                   <p className="text-sm text-neutral-500">
                     GPA: 3.94 &middot; Graduated May 2023
@@ -82,8 +82,8 @@ export default function ResumePage() {
                 Honors
               </h3>
               <p className="text-neutral-600">
-                College Scholar (2021–2023) &middot; University Honors
-                (2019–2023)
+                College Scholar (2021-2023) &middot; University Honors
+                (2019-2023)
               </p>
             </div>
 
@@ -93,7 +93,7 @@ export default function ResumePage() {
               </h3>
               <p className="text-neutral-600">
                 Apple&apos;s Women in Science and Engineering (AWSEM) &middot;
-                Rewriting the Code (RTC) &middot; CodePath
+                Rewriting the Code (RTC) &middot; CodePath &middot; Women in Computer Science (WiCS)
               </p>
             </div>
           </div>

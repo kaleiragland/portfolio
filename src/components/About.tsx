@@ -14,21 +14,19 @@ export default function About() {
               I&apos;m a Master&apos;s student in Computer Science at Columbia
               University with a background in Biochemistry from UT Austin. My
               path from the lab bench to software engineering gives me a unique
-              perspective — I approach problems methodically, value clean
+              perspective, I approach problems methodically, value clean
               experimentation, and care deeply about building things that
               actually work for people.
             </p>
             <p>
               I&apos;ve interned at Columbia Build Lab designing AWS
-              infrastructure for a health startup, at CVS Health building AI
+              infrastructure and React features for a health startup, at CVS Health building AI
               data pipelines on Google Cloud, and at LeWiz Communications
               writing embedded systems software. I enjoy working across the
-              stack — from cloud architecture to polished frontend experiences.
+              stack, from cloud architecture to polished frontend experiences.
             </p>
             <p>
-              When I&apos;m not coding, you can find me mentoring through
-              CodePath and Rewriting the Code, or exploring what New York City
-              has to offer.
+              When I&apos;m not coding, you'll most likely find me at a museum or trying a new restaurant (ask me for my Beli!).
             </p>
           </div>
 
