@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TypingEffect from "./TypingEffect";
 
 export default function Hero() {
   return (
@@ -21,8 +22,8 @@ export default function Hero() {
         </div>
 
         <div className="text-center md:text-left">
-        <p className="text-sm font-medium tracking-widest uppercase text-sage-400 mb-4">
-          Software Engineer
+        <p className="text-sm font-medium tracking-widest uppercase text-sage-400 mb-4 h-5">
+          <TypingEffect />
         </p>
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-6">
           Kalei Ragland

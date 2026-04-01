@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="py-24 px-6">
+    <section id="about" className="py-24 px-6 fade-up">
       <div className="mx-auto max-w-4xl">
         <div className="bg-white/60 backdrop-blur-sm rounded-3xl border border-warm-200/50 p-8 sm:p-12">
           <p className="text-sm font-medium tracking-widest uppercase text-sage-400 mb-3">
@@ -11,7 +11,7 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-neutral-600 leading-relaxed">
             <p>
-              I&apos;m a Master&apos;s student in Computer Science at Columbia
+              Hi! I&apos;m a Master&apos;s student studying Computer Science at Columbia
               University with a background in Biochemistry from UT Austin. My
               path from the lab bench to software engineering gives me a unique
               perspective, I approach problems methodically, value clean

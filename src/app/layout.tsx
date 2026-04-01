@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CursorSparkle from "@/components/CursorSparkle";
 
 export const metadata: Metadata = {
   title: "Kalei Ragland",
@@ -23,6 +24,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans antialiased">
+        <CursorSparkle />
         <Navbar />
         <main>{children}</main>
         <Footer />
